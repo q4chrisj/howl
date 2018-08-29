@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get install awscli -y 
+apt-get install awscli -y
 apt-get install python-pip -y
 pip install --upgrade awscli
 
