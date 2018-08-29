@@ -1,10 +1,10 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get install awscli -y 
-sudo apt-get install python-pip -y
+apt-get update
+apt-get install awscli -y 
+apt-get install python-pip -y
 pip install --upgrade awscli
 
-sudo apt-get install -y git
-sudo apt-get install -y rake
-sudo curl -L https://bit.ly/janus-bootstrap | bash
+apt-get install -y git
+apt-get install -y rake
+curl -L https://bit.ly/janus-bootstrap | bash
